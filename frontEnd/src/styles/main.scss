@@ -91,7 +91,32 @@
 }
 
 .beginning-page {
-  background-color: palevioletred;
+  background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  .LHS-container {
+    background-image: url('https://imagevars.gulfnews.com/2020/03/22/A-young-Roger-Federer_171012cd401_original-ratio.jpg');
+    width: 60%;
+    height: 40vw;
+    background-size: cover;
+    background-position: center;
+  }
+  .RHS-container {
+    flex: 1;
+    .Top-RHS-container {
+      height: 50%;
+      border-bottom: 3px solid black;
+    }
+    .Bottom-RHS-container {
+      height: 50%;
+      padding: 3% 10% 0 10%;
+      .text-container {
+        font-family: 'Bodoni Moda', serif;
+        font-size: 32px;
+        color: black;
+      }
+    }
+  }
 }
 
 .tennis-page {
