@@ -52,6 +52,7 @@
     font-size: 80px;
     font-family: 'Bodoni Moda', serif;
     color: white;
+    text-align: center;
   }
   .quote-container {
     width: 100%;
@@ -63,7 +64,30 @@
 }
 
 .the-beginning {
-  background-color: red;
+  background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  .LHS-container {
+    font-family: 'Bodoni Moda', serif;
+    color: black;
+    padding: 5%;
+    p:first-of-type {
+      font-size: 70px;
+    }
+    p:last-of-type {
+      font-size: 120px;
+    }
+  }
+  .RHS-container {
+    flex: 1;
+    .Top-RHS-container {
+      height: 50%;
+      border-bottom: 3px solid black;
+    }
+    .Bottom-RHS-container {
+      height: 50%;
+    }
+  }
 }
 
 .beginning-page {
