@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.wrapper {
+  display: flex;
+  width: 1400vw;
+  .slide {
+    width: 100vw;
+    height: 100vh;
+  }
+}
+
+.landing-page {
+  background-color: gray;
+}
+
+.the-beginning {
+  background-color: red;
+}
+
+.beginning-page {
+  background-color: palevioletred;
+}
+
+.tennis-page {
+  background-color: greenyellow;
+}
+
+.the-professional {
+  background-color: yellow;
+}
+
+.professional-page {
+  background-color: blue;
+}
+
+.the-philanthropist {
+  background-color: brown;
+}
+.philanthropist-page {
+  background-color: salmon;
+}
+.the-champion {
+  background-color: crimson;
+}
+.champion-page {
+  background-color: darkorchid;
+}
+
+.the-husband-and-father {
+  background-color:coral;
+}
+.husband-and-father-page {
+  background-color:cornflowerblue;
+}
+
+.the-legend {
+  background-color: forestgreen;
+}
+.legend-page {
+  background-color: goldenrod;
+}
