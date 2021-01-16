@@ -1,12 +1,18 @@
 import React from 'react'
+import LandingPage from './components/LandingPage'
+import TheBeginning from './components/TheBeginning'
+import BeginningPage from './components/BeginningPage'
 
 const App = () => {
   return (
     <div className='outer-wrapper'>
       <div className='wrapper'>
-        <div className='landing-page slide'></div>
+        <LandingPage />
+        <TheBeginning />
+        <BeginningPage />
+        {/* <div className='landing-page slide'></div>
         <div className='the-beginning slide'></div>
-        <div className='beginning-page slide'></div>
+        <div className='beginning-page slide'></div> */}
         <div className='tennis-page slide'></div>
         <div className='the-professional slide'></div>
         <div className='professional-page slide'></div>
