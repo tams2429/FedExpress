@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Caveat&family=Charm&family=Dancing+Script&family=Great+Vibes&family=Parisienne&display=swap');
+// font-family: 'Dancing Script', cursive;
+// font-family: 'Parisienne', cursive;
+// font-family: 'Great Vibes', cursive;
+// font-family: 'Parisienne', cursive;
+// font-family: 'Charm', cursive;
+// font-family: 'Bodoni Moda', serif;
+
 * {
   margin: 0;
   padding: 0;
@@ -32,7 +40,26 @@
 
 
 .landing-page {
-  background-color: gray;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.35),rgba(0, 0, 0, 0.55)),url('https://static01.nyt.com/images/2019/07/13/sports/12wimbledon1-print/merlin_157854486_7a96b904-36fd-4f7e-b6bb-01a1eff1e16f-jumbo.jpg?quality=90&auto=webp');
+  background-size: cover;
+  background-position: center;
+  /*Diagonal transition to next page */
+  // background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  .title-container {
+    width: 100%;
+    font-size: 80px;
+    font-family: 'Bodoni Moda', serif;
+    color: white;
+  }
+  .quote-container {
+    width: 100%;
+    font-family: 'Bodoni Moda', serif;
+    font-size: 32px;
+    color: gold;
+    text-align: center;
+  }
 }
 
 .the-beginning {
