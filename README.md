@@ -9,7 +9,7 @@
 - [Wins](#wins)
 - [Future Work](#future-work)
 
-## Overview 👓
+## Overview
 
 A **Single Page (SPA)**, profile site created for one of my sporting idols, Roger Federer, to experiment with a few concepts, including **horizontal scrolling** and the **Robin-Dela Hover Effect**. This a Front-End Web application built using **ReactJS**, **SCSS** , **HTML5** and **various other libraries**.
 
