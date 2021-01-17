@@ -2,12 +2,12 @@
 
 ## Table of Contents 📖
 
-- [Overview](#overview)
-- [Technologies](#technologies)
-- [Planning](#planning)
-- [Getting Started](#getting-started)
-- [Wins](#wins)
-- [Future Work](#future-work)
+- [Overview](##overview)
+- [Technologies](##technologies)
+- [Planning](##planning)
+- [Getting Started](##getting-started)
+- [Wins](##wins)
+- [Future Work](##future-work)
 
 ## Overview 👓
 
@@ -48,16 +48,16 @@ Due to the **requirements of this project**, this has been designed for a **typi
 - **"The Professional :man_in_tuxedo:"** section:
     - Include **section divider**
     - Include **images and description**
--**"The Philanthropist :gift:"** section:
+- **"The Philanthropist :gift:"** section:
     - Include **section divider**
     - Include **images and description**
--**"The Champion :trophy:"** section:
+- **"The Champion :trophy:"** section:
     - Include **section divider**
     - Include **images and description**
--**"The Family Man :family_man_man_boy_boy:"** section:
+- **"The Family Man :family_man_man_boy_boy:"** section:
     - Include **section divider**
     - Include **images and description**
--**"The Legend :star::sunglasses:"** section:
+- **"The Legend :star::sunglasses:"** section:
     - Include **section divider**
     - Include **images and description**
 
