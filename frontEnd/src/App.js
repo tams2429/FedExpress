@@ -7,6 +7,9 @@ import TheProfessional from './components/TheProfessional'
 import ProfessionalPage from './components/ProfessionalPage'
 import ThePhilanthropist from './components/ThePhilanthropist'
 import PhilanthropistPage from './components/PhilanthropistPage'
+import TheChampion from './components/TheChampion'
+import ChampionPage1 from './components/ChampionPage1'
+import ChampionPage2 from './components/ChampionPage2'
 
 const App = () => {
   return (
@@ -20,8 +23,9 @@ const App = () => {
         <ProfessionalPage />
         <ThePhilanthropist />
         <PhilanthropistPage />
-        <div className='the-champion slide'></div>
-        <div className='champion-page slide'></div>
+        <TheChampion />
+        <ChampionPage1 />
+        <ChampionPage2 />
         <div className='the-husband-and-father slide'></div>
         <div className='husband-and-father-page slide'></div>
         <div className='the-legend slide'></div>

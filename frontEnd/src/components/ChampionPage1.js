@@ -1,12 +1,12 @@
 import React from 'react'
 import hoverEffect from 'hover-effect'
-import FedFoundation2 from '../images/FedFoundation2.jpg'
-import FedFoundation4 from '../images/FedFoundation4.jpg'
+import GrandSlamFed1 from '../images/1GrandSlamFed.jpg'
+import GrandSlamFed2 from '../images/1GrandSlamFed2.jpg'
 
 
 
 
-const PhilanthropistPage = () => {
+const ChampionPage1 = () => {
 
   const img = React.useRef(null)
 
@@ -14,8 +14,8 @@ const PhilanthropistPage = () => {
     new hoverEffect({
       parent: img.current,
       intensity: 0.1,
-      image1: FedFoundation2,
-      image2: FedFoundation4,
+      image1: GrandSlamFed1,
+      image2: GrandSlamFed2,
       displacementImage: 'https://as1.ftcdn.net/jpg/02/00/44/38/500_F_200443802_QbtkkF5yzwmSke6Uw7ISHoM8kKDd9clQ.jpg',
     })
   }
@@ -23,7 +23,7 @@ const PhilanthropistPage = () => {
   )
 
   return (
-    <div className='philanthropist-page slide'>
+    <div className='champion-page-1 slide'>
       <div ref={img} className='LHS-container'>
       </div>
       <div className='RHS-container'>
@@ -31,7 +31,7 @@ const PhilanthropistPage = () => {
         <div className='Bottom-RHS-container'>
           <div className='text-container'>
             <p>
-            Founded the ‘Roger Federer Foundation’ in 2003 which has invested over 28.5 million in educational programs in Africa and Switzerland, reaching out to 650,000 children.
+            Wins his first Grand Slam, Wimbledon, in 2003, defeating legend, Pete Sampras, en route, and thus begins the era of Roger Federer…
             </p>
           </div>
         </div>
@@ -40,4 +40,4 @@ const PhilanthropistPage = () => {
   )
 }
 
-export default PhilanthropistPage
+export default ChampionPage1

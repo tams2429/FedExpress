@@ -333,10 +333,107 @@
 }
 
 .the-champion {
-  background-color: crimson;
+  background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  .LHS-container {
+    font-family: 'Bodoni Moda', serif;
+    color: black;
+    padding: 5%;
+    p:first-of-type {
+      font-size: 70px;
+    }
+    p:last-of-type {
+      font-size: 120px;
+    }
+  }
+  .RHS-container {
+    flex: 1;
+    .Top-RHS-container {
+      height: 50%;
+      border-bottom: 3px solid black;
+    }
+    .Bottom-RHS-container {
+      height: 50%;
+    }
+  }
 }
-.champion-page {
-  background-color: darkorchid;
+
+.champion-page-1 {
+  background-color: aliceblue;
+  display: flex;
+  .LHS-container {
+    width: 50%;
+    height: 30vw;
+    background-size: cover;
+    // background-position: center;
+    align-self: flex-end;
+    margin-bottom: 8%;
+  }
+  .RHS-container {
+    flex: 1;
+    .Top-RHS-container {
+      height: 50%;
+      border-bottom: 3px solid black;
+    }
+    .Bottom-RHS-container {
+      height: 50%;
+      padding: 3% 10% 0 10%;
+      .text-container {
+        font-family: 'Bodoni Moda', serif;
+        font-size: 28px;
+        color: black;
+      }
+    }
+  }
+}
+
+.champion-page-2 {
+  background-color: aliceblue;
+  display: flex;
+  .LHS-container {
+    width: 50%;
+    height: 40vw;
+    background-size: cover;
+    background-position: center;
+    margin-top: 5%;
+    align-self: flex-start;
+  }
+  .RHS-container {
+    flex: 1;
+    .Top-RHS-container {
+      height: 50%;
+      border-bottom: 3px solid black;
+      padding: 0 10% 3% 10%;
+      display: flex;
+      align-items: flex-end;
+      .text-container {
+        font-family: 'Bodoni Moda', serif;
+        font-size: 28px;
+        color: black;
+      }
+    }
+    .Bottom-RHS-container {
+      height: 50%;
+      padding: 3% 10% 0 10%;
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .junior-page {
+    .LHS-container {
+      margin-top: 13%;
+    }
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .junior-page {
+    .LHS-container {
+      margin-top: 18%;
+    }
+  }
 }
 
 .the-husband-and-father {
