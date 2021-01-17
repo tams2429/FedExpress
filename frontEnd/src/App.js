@@ -2,6 +2,7 @@ import React from 'react'
 import LandingPage from './components/LandingPage'
 import TheBeginning from './components/TheBeginning'
 import BeginningPage from './components/BeginningPage'
+import JuniorPage from './components/JuniorPage'
 
 const App = () => {
   return (
@@ -10,7 +11,7 @@ const App = () => {
         <LandingPage />
         <TheBeginning />
         <BeginningPage />
-        <div className='tennis-page slide'></div>
+        <JuniorPage />
         <div className='the-professional slide'></div>
         <div className='professional-page slide'></div>
         <div className='the-philanthropist slide'></div>

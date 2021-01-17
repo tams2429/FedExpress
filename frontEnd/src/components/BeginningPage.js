@@ -1,10 +1,28 @@
 import React from 'react'
+import hoverEffect from 'hover-effect'
+import TennisKidFed from '../images/TennisKidFed.jpg'
+import YoungFed from '../images/YoungFed.jpg'
+
 
 const BeginningPage = () => {
+
+  const img = React.useRef(null)
+
+  React.useEffect(() => {
+    new hoverEffect({
+      parent: img.current,
+      intensity: 0.1,
+      image1: YoungFed,
+      image2: TennisKidFed,
+      displacementImage: 'https://as1.ftcdn.net/jpg/02/00/44/38/500_F_200443802_QbtkkF5yzwmSke6Uw7ISHoM8kKDd9clQ.jpg',
+    })
+  }
+
+  )
+
   return (
     <div className='beginning-page slide'>
-      <div className='LHS-container'>
-        {/* <img src='https://imagevars.gulfnews.com/2020/03/22/A-young-Roger-Federer_171012cd401_original-ratio.jpg'></img> */}
+      <div ref={img} className='LHS-container'>
       </div>
       <div className='RHS-container'>
         <div className='Top-RHS-container'></div>
