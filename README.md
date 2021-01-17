@@ -2,12 +2,12 @@
 
 ## Table of Contents 📖
 
-- [Overview](##overview)
-- [Technologies](##technologies)
-- [Planning](##planning)
-- [Getting Started](##getting-started)
-- [Wins](##wins)
-- [Future Work](##future-work)
+- [Overview](#overview "Goto overview")
+- [Technologies](#technologies)
+- [Planning](#planning)
+- [Getting Started](#getting-started)
+- [Wins](#wins)
+- [Future Work](#future-work)
 
 ## Overview 👓
 
