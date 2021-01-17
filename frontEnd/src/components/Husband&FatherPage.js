@@ -3,9 +3,6 @@ import hoverEffect from 'hover-effect'
 import FedFam from '../images/FedFam.jpg'
 import FedFam2 from '../images/FedFam2.jpg'
 
-
-
-
 const HusbandAndFatherPage = () => {
 
   const img = React.useRef(null)
@@ -18,9 +15,7 @@ const HusbandAndFatherPage = () => {
       image2: FedFam,
       displacementImage: 'https://as1.ftcdn.net/jpg/02/00/44/38/500_F_200443802_QbtkkF5yzwmSke6Uw7ISHoM8kKDd9clQ.jpg',
     })
-  }
-
-  )
+  })
 
   return (
     <div className='champion-page-1 slide'>

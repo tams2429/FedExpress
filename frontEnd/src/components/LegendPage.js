@@ -3,7 +3,6 @@ import hoverEffect from 'hover-effect'
 import Legend1 from '../images/Legend1.jpg'
 import Legend2 from '../images/Legend2.jpeg'
 
-
 const LegendPage = () => {
 
   const img = React.useRef(null)
@@ -16,9 +15,7 @@ const LegendPage = () => {
       image2: Legend2,
       displacementImage: 'https://as1.ftcdn.net/jpg/02/00/44/38/500_F_200443802_QbtkkF5yzwmSke6Uw7ISHoM8kKDd9clQ.jpg',
     })
-  }
-
-  )
+  })
 
   return (
     <div className='legend-page slide'>

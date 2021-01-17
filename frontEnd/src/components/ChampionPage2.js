@@ -1,7 +1,6 @@
 import React from 'react'
 import ReactPlayer from 'react-player'
 
-
 const ChampionPage2 = () => {
   return (
     <div className='champion-page-2 slide'>
@@ -14,15 +13,6 @@ const ChampionPage2 = () => {
           </div>
         </div>
         <div className='Bottom-RHS-container'>
-          {/* <div className='text-container'>
-            <p>
-              Began playing Tennis at the age of 8
-            </p>
-            <br />
-            <p>
-              Idols growing up were Stefan Edberg, Boris Becker and Pete Sampras.
-            </p>
-          </div> */}
         </div>
       </div>
     </div>

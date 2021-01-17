@@ -3,9 +3,6 @@ import hoverEffect from 'hover-effect'
 import GrandSlamFed1 from '../images/1GrandSlamFed.jpg'
 import GrandSlamFed2 from '../images/1GrandSlamFed2.jpg'
 
-
-
-
 const ChampionPage1 = () => {
 
   const img = React.useRef(null)
@@ -18,9 +15,7 @@ const ChampionPage1 = () => {
       image2: GrandSlamFed2,
       displacementImage: 'https://as1.ftcdn.net/jpg/02/00/44/38/500_F_200443802_QbtkkF5yzwmSke6Uw7ISHoM8kKDd9clQ.jpg',
     })
-  }
-
-  )
+  })
 
   return (
     <div className='champion-page-1 slide'>

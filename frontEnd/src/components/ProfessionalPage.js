@@ -1,7 +1,6 @@
 import React from 'react'
 import ReactPlayer from 'react-player'
 
-
 const ProfessionalPage = () => {
   return (
     <div className='professional-page slide'>
@@ -18,15 +17,6 @@ const ProfessionalPage = () => {
           </div>
         </div>
         <div className='Bottom-RHS-container'>
-          {/* <div className='text-container'>
-            <p>
-              Began playing Tennis at the age of 8
-            </p>
-            <br />
-            <p>
-              Idols growing up were Stefan Edberg, Boris Becker and Pete Sampras.
-            </p>
-          </div> */}
         </div>
       </div>
     </div>

@@ -3,9 +3,6 @@ import hoverEffect from 'hover-effect'
 import FedFoundation2 from '../images/FedFoundation2.jpg'
 import FedFoundation4 from '../images/FedFoundation4.jpg'
 
-
-
-
 const PhilanthropistPage = () => {
 
   const img = React.useRef(null)
@@ -18,9 +15,7 @@ const PhilanthropistPage = () => {
       image2: FedFoundation4,
       displacementImage: 'https://as1.ftcdn.net/jpg/02/00/44/38/500_F_200443802_QbtkkF5yzwmSke6Uw7ISHoM8kKDd9clQ.jpg',
     })
-  }
-
-  )
+  })
 
   return (
     <div className='philanthropist-page slide'>

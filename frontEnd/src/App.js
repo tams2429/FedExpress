@@ -37,7 +37,6 @@ const App = () => {
         <LegendPage />
         <TheCoach />
       </div>
-
     </div>
   )
 }
