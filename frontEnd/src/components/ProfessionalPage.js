@@ -2,22 +2,19 @@ import React from 'react'
 import ReactPlayer from 'react-player'
 
 
-const JuniorPage = () => {
+const ProfessionalPage = () => {
   return (
-    <div className='junior-page slide'>
+    <div className='professional-page slide'>
       <div className='LHS-container'>
-        <ReactPlayer url='https://youtu.be/8Z8K7QtyOJc?t=13' controls={true} width='100%' height='80%' className='video-player'/>
+        <ReactPlayer url='https://youtu.be/0P1wPmgz0Bk?t=32' controls={true} width='100%' height='80%' className='video-player'/>
       </div>
       <div className='RHS-container'>
         <div className='Top-RHS-container'>
           <div className='text-container'>
             <p>
-              Began playing Tennis at the age of 8.
+              Debuts on the ATP tour in 1998. Highlights include facing off against Top 10 ranked, Agassi in Basel. Losing 3-6, 2-6.
             </p>
             <br />
-            <p>
-              Idols growing up were Stefan Edberg, Boris Becker and Pete Sampras.
-            </p>
           </div>
         </div>
         <div className='Bottom-RHS-container'>
@@ -36,4 +33,4 @@ const JuniorPage = () => {
   )
 }
 
-export default JuniorPage
+export default ProfessionalPage

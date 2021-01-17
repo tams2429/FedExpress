@@ -3,6 +3,10 @@ import LandingPage from './components/LandingPage'
 import TheBeginning from './components/TheBeginning'
 import BeginningPage from './components/BeginningPage'
 import JuniorPage from './components/JuniorPage'
+import TheProfessional from './components/TheProfessional'
+import ProfessionalPage from './components/ProfessionalPage'
+import ThePhilanthropist from './components/ThePhilanthropist'
+import PhilanthropistPage from './components/PhilanthropistPage'
 
 const App = () => {
   return (
@@ -12,10 +16,10 @@ const App = () => {
         <TheBeginning />
         <BeginningPage />
         <JuniorPage />
-        <div className='the-professional slide'></div>
-        <div className='professional-page slide'></div>
-        <div className='the-philanthropist slide'></div>
-        <div className='philanthropist-page slide'></div>
+        <TheProfessional />
+        <ProfessionalPage />
+        <ThePhilanthropist />
+        <PhilanthropistPage />
         <div className='the-champion slide'></div>
         <div className='champion-page slide'></div>
         <div className='the-husband-and-father slide'></div>

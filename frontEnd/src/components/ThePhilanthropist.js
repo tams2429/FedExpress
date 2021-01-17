@@ -1,12 +1,12 @@
 import React from 'react'
 
-const TheProfessional = () => {
+const ThePhilanthropist = () => {
 
   return (
-    <div className='the-professional slide'>
+    <div className='the-philanthropist slide'>
       <div className='LHS-container'>
         <p>THE</p>
-        <p>PROFESSIONAL</p>
+        <p>PHILANTHROPIST</p>
       </div>
       <div className='RHS-container'>
         <div className='Top-RHS-container'></div>
@@ -16,4 +16,4 @@ const TheProfessional = () => {
   )
 }
 
-export default TheProfessional
+export default ThePhilanthropist
