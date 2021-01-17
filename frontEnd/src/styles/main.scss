@@ -24,7 +24,7 @@
   -ms-overflow-style: none;
   .wrapper {
     display: flex;
-    width: 1400vw;
+    width: 1600vw;
     transform: rotate(90deg) translateY(-100vh);
     transform-origin: top left;
     .slide {
@@ -437,15 +437,142 @@
 }
 
 .the-husband-and-father {
-  background-color:coral;
+  background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  .LHS-container {
+    font-family: 'Bodoni Moda', serif;
+    color: black;
+    padding: 5%;
+    p:first-of-type {
+      font-size: 70px;
+    }
+    p:nth-child(2) {
+      font-size: 120px;
+    }
+    p:last-of-type {
+      font-size: 120px;
+    }
+  }
+  .RHS-container {
+    flex: 1;
+    .Top-RHS-container {
+      height: 50%;
+      border-bottom: 3px solid black;
+    }
+    .Bottom-RHS-container {
+      height: 50%;
+    }
+  }
 }
 .husband-and-father-page {
-  background-color:cornflowerblue;
+  background-color: aliceblue;
+  display: flex;
+  .LHS-container {
+    width: 50%;
+    height: 30vw;
+    background-size: cover;
+    // background-position: center;
+    align-self: flex-end;
+    margin-bottom: 8%;
+  }
+  .RHS-container {
+    flex: 1;
+    .Top-RHS-container {
+      height: 50%;
+      border-bottom: 3px solid black;
+    }
+    .Bottom-RHS-container {
+      height: 50%;
+      padding: 3% 10% 0 10%;
+      .text-container {
+        font-family: 'Bodoni Moda', serif;
+        font-size: 28px;
+        color: black;
+      }
+    }
+  }
 }
 
 .the-legend {
-  background-color: forestgreen;
+  background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  .LHS-container {
+    font-family: 'Bodoni Moda', serif;
+    color: black;
+    padding: 5%;
+    p:first-of-type {
+      font-size: 70px;
+    }
+    p:last-of-type {
+      font-size: 120px;
+    }
+  }
+  .RHS-container {
+    flex: 1;
+    .Top-RHS-container {
+      height: 50%;
+      border-bottom: 3px solid black;
+    }
+    .Bottom-RHS-container {
+      height: 50%;
+    }
+  }
 }
+
 .legend-page {
-  background-color: goldenrod;
+  background-color: aliceblue;
+  display: flex;
+  .LHS-container {
+    width: 50%;
+    height: 30vw;
+    background-size: cover;
+    // background-position: center;
+    align-self: flex-end;
+    margin-bottom: 8%;
+  }
+  .RHS-container {
+    flex: 1;
+    .Top-RHS-container {
+      height: 50%;
+      border-bottom: 3px solid black;
+    }
+    .Bottom-RHS-container {
+      height: 50%;
+      padding: 3% 10% 0 10%;
+      .text-container {
+        font-family: 'Bodoni Moda', serif;
+        font-size: 28px;
+        color: black;
+      }
+    }
+  }
+}
+
+.the-coach {
+  background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  .LHS-container {
+    font-family: 'Bodoni Moda', serif;
+    color: black;
+    padding: 5%;
+    p:first-of-type {
+      font-size: 70px;
+    }
+    p:last-of-type {
+      font-size: 120px;
+    }
+  }
+  .RHS-container {
+    flex: 1;
+    .Top-RHS-container {
+      height: 50%;
+      border-bottom: 3px solid black;
+    }
+    .Bottom-RHS-container {
+      height: 50%;
+    }
+  }
 }

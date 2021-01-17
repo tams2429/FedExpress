@@ -10,6 +10,11 @@ import PhilanthropistPage from './components/PhilanthropistPage'
 import TheChampion from './components/TheChampion'
 import ChampionPage1 from './components/ChampionPage1'
 import ChampionPage2 from './components/ChampionPage2'
+import TheHusbandAndFather from './components/TheHusband&Father'
+import HusbandAndFatherPage from './components/Husband&FatherPage'
+import TheLegend from './components/TheLegend'
+import LegendPage from './components/LegendPage'
+import TheCoach from './components/TheCoach'
 
 const App = () => {
   return (
@@ -26,11 +31,11 @@ const App = () => {
         <TheChampion />
         <ChampionPage1 />
         <ChampionPage2 />
-        <div className='the-husband-and-father slide'></div>
-        <div className='husband-and-father-page slide'></div>
-        <div className='the-legend slide'></div>
-        <div className='legend-page slide'></div>
-
+        <TheHusbandAndFather />
+        <HusbandAndFatherPage />
+        <TheLegend />
+        <LegendPage />
+        <TheCoach />
       </div>
 
     </div>
