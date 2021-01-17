@@ -2,14 +2,14 @@
 
 ## Table of Contents 📖
 
-- [Overview](#overview-👓 "Goto overview")
-- [Technologies](#technologies-💻 "Goto technologies")
-- [Planning](#process-📝 "Goto process")
-- [Getting Started](#getting-started-🏃‍♂️🏃‍♀️ "Goto getting-started")
+- [Overview](#overview)
+- [Technologies](#technologies)
+- [Planning](#process)
+- [Getting Started](#getting-started)
 - [Wins](#wins-🏆 "Goto wins")
 - [Future Work](#future-work-☕ "Goto future-work")
 
-## Overview 👓
+## Overview
 
 A **Single Page (SPA)**, profile site created for one of my sporting idols, Roger Federer, to experiment with a few concepts, including **horizontal scrolling** and the **Robin-Dela Hover Effect**. This a Front-End Web application built using **ReactJS**, **SCSS** , **HTML5** and **various other libraries**.
 
@@ -18,7 +18,7 @@ Due to the **requirements of this project**, this has been designed for a **typi
 ![Working Gif of FedExpress Desktop View](/frontEnd/ReadmeResources/FedExpress-GIF.gif)
 
 
-## Technologies 💻
+## Technologies
 
 - General:
     - **ReactJS**
@@ -30,7 +30,7 @@ Due to the **requirements of this project**, this has been designed for a **typi
     - **Robin-Dela Hover Effect**
     - **React Player**
 
-## Process 📝
+## Process
 - I started by deciding which **famous person** to do a website on, having followed **Tennis from an early age**, I was curious what **Roger Federer's existing site** looked like and after some research, felt that I could **expand on the UX** of the existing site whilst **experimenting** with some **ideas** that I had.
 
 - Next, as part of my **research**, I looked at some **example portfolio sites** to see what **libraries** and **frameworks** could be implemented on my site
@@ -61,7 +61,7 @@ Due to the **requirements of this project**, this has been designed for a **typi
     - Include **section divider**
     - Include **images and description**
 
-## Getting Started 🏃‍♂️🏃‍♀️
+## Getting Started
 
 To enjoy the **full experience** of the **site**, it is recommended to use the **deployed version** at [https://fedexpress.netlify.app/](https://fedexpress.netlify.app/). If you wish to **run it locally**, you will need to **follow the steps below**:
 
