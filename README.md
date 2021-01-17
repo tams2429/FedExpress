@@ -2,14 +2,14 @@
 
 ## Table of Contents 📖
 
-- [Overview](#overview "Goto overview")
-- [Technologies](#technologies)
-- [Planning](#planning)
-- [Getting Started](#getting-started)
-- [Wins](#wins)
-- [Future Work](#future-work)
+- [Overview](#overview-👓 "Goto overview")
+- [Technologies](#technologies-💻 "Goto technologies")
+- [Planning](#process-📝 "Goto process")
+- [Getting Started](#getting-started-🏃‍♂️🏃‍♀️ "Goto getting-started")
+- [Wins](#wins-🏆 "Goto wins")
+- [Future Work](#future-work-☕ "Goto future-work")
 
-## Overview
+## Overview 👓
 
 A **Single Page (SPA)**, profile site created for one of my sporting idols, Roger Federer, to experiment with a few concepts, including **horizontal scrolling** and the **Robin-Dela Hover Effect**. This a Front-End Web application built using **ReactJS**, **SCSS** , **HTML5** and **various other libraries**.
 
