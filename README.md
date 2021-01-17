@@ -2,12 +2,12 @@
 
 ## Table of Contents 📖
 
-- [Overview](https://www.notion.so/Project-3-Readme-Fri-21st-Aug-95a55df0773f45c1af1f5ec3084c4b5b#f99c1c68a0be411ea21aebfba620afdd)
-- [Technologies](https://www.notion.so/Project-3-Readme-Fri-21st-Aug-95a55df0773f45c1af1f5ec3084c4b5b#c4e06631a3be4fceb9e534a52290e05d)
-- [Planning](https://www.notion.so/Project-3-Readme-Fri-21st-Aug-95a55df0773f45c1af1f5ec3084c4b5b#fe3af2ac0fd944c98a0bad3a79ddff88)
-- [Getting Started](https://www.notion.so/Project-3-Readme-Fri-21st-Aug-95a55df0773f45c1af1f5ec3084c4b5b#99b60c701ae0446998be70811a2726d1)
-- [Wins](https://www.notion.so/Project-3-Readme-Fri-21st-Aug-95a55df0773f45c1af1f5ec3084c4b5b#81e74b7a4ae74f2399c85b5ed0c61304)
-- [Future Work](https://www.notion.so/Project-3-Readme-Fri-21st-Aug-95a55df0773f45c1af1f5ec3084c4b5b#fca88914eeb14fc0909ad0588d7ea20c)
+- [Overview](#overview)
+- [Technologies](#technologies)
+- [Planning](#planning)
+- [Getting Started](#getting-started)
+- [Wins](#wins)
+- [Future Work](#future-work)
 
 ## Overview 👓
 
@@ -42,28 +42,28 @@ Due to the **requirements of this project**, this has been designed for a **typi
     - Include the **Roger Federer picture** as **background**
     - Include **quote**
     - Include **name**
-- **"The Beginning"** section 👶 :baby_bottle::
+- **"The Beginning 👶 :baby_bottle:"** section :
     - Include **section divider**
     - Include **images and description**
-- **"The Professional"** section :man_in_tuxedo:
+- **"The Professional :man_in_tuxedo:"** section:
     - Include **section divider**
     - Include **images and description**
-**"The Philanthropist"** section :gift::
+-**"The Philanthropist :gift:"** section:
     - Include **section divider**
     - Include **images and description**
-**"The Champion"** section :trophy::
+-**"The Champion :trophy:"** section:
     - Include **section divider**
     - Include **images and description**
-**"The Family Man"** section :family_man_man_boy_boy::
+-**"The Family Man :family_man_man_boy_boy:"** section:
     - Include **section divider**
     - Include **images and description**
-**"The Legend"** section :star::sunglasses::
+-**"The Legend :star::sunglasses:"** section:
     - Include **section divider**
     - Include **images and description**
 
 ## Getting Started 🏃‍♂️🏃‍♀️
 
-To enjoy the **full experience** of the **site**, it is recommended to use the **deployed version** at [http://www.siukeitam.com/](http://www.siukeitam.com/). If you wish to **run it locally**, you will need to **follow the steps below**:
+To enjoy the **full experience** of the **site**, it is recommended to use the **deployed version** at [https://fedexpress.netlify.app/](https://fedexpress.netlify.app/). If you wish to **run it locally**, you will need to **follow the steps below**:
 
 - **Fork** or **Clone** the **GitHub repository** ([https://github.com/tams2429/FedExpress](https://github.com/tams2429/FedExpress))
 - In the **'frontEnd' folder**, run `npm install` to **install** all the **dependencies**
